@@ -20,3 +20,14 @@ public class DataType_002 {
         return output;
     }
 }
+
+class approach2 {
+    public static int main(String type) {
+        if (type.equals("Long") || type.equals("Double"))
+            return 8;
+        else if (type.equals("Character"))
+            return 1;
+        else
+            return 4;
+    }
+}
