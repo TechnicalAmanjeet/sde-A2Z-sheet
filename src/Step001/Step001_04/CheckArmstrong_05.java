@@ -1,8 +1,8 @@
-package Step001.Step001_04
+package Step001.Step001_04;
 
 import java.util.Scanner;
 
-class CheckArmstrong {
+class CheckArmstrong_05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -7,6 +7,7 @@ public class ReverseBit_02 {
 
     public static long reverseBits(long n) {
         // Write your code here
-
+//        TODO("Need to solve this question")
+        return 1;
     }
 }

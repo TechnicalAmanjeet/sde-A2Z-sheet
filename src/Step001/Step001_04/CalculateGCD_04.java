@@ -1,6 +1,6 @@
 package Step001.Step001_04;
 
-public class CalculateGCD {
+public class CalculateGCD_04 {
     public static void main(String[] args) {
 
     }
