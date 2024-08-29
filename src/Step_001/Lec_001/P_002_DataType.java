@@ -2,7 +2,7 @@ package Step_001.Lec_001;
 
 import java.util.Objects;
 
-public class DataType_002 {
+public class P_002_DataType {
     public static int main(String type) {
         int output = 0;
 
