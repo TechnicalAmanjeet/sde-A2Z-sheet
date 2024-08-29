@@ -27,7 +27,9 @@ class   approach2 {
             return 8;
         else if (type.equals("Character"))
             return 1;
-        else
+        else if (type.equals("Integer") || type.equals("Float")) {
             return 4;
+        } else
+            return -1;
     }
 }
