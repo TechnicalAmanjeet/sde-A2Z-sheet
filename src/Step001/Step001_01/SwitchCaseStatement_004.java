@@ -1,5 +1,7 @@
 package Step001.Step001_01;
 
+import java.util.List;
+
 public class SwitchCaseStatement_004 {
     public static double areaSwitchCase(int ch, double []a) {
         // Write your code here
@@ -13,5 +15,17 @@ public class SwitchCaseStatement_004 {
                 return 0;
         }
 
+    }
+
+    static double switchCase(int choice, List<Double> arr){
+        // code here
+        switch (choice) {
+            case 1:
+                return Math.pow(arr.get(0), 2) * Math.PI;
+            case 2:
+                return arr.get(0) * arr.get(1);
+            default:
+                return 0;
+        }
     }
 }
