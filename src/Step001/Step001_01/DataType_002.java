@@ -21,7 +21,7 @@ public class DataType_002 {
     }
 }
 
-class approach2 {
+class   approach2 {
     public static int main(String type) {
         if (type.equals("Long") || type.equals("Double"))
             return 8;
