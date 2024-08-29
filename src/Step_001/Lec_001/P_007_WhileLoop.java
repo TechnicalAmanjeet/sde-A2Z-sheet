@@ -1,4 +1,4 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
 public class P_007_WhileLoop {
     public static void main(String[] args) {

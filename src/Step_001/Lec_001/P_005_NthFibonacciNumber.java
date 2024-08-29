@@ -1,8 +1,8 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
 import java.util.Scanner;
 
-public class NthFibonacciNumber_005 {
+public class P_005_NthFibonacciNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

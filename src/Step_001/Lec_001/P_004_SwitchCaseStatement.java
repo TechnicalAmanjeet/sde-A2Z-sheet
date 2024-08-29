@@ -1,8 +1,8 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
 import java.util.List;
 
-public class SwitchCaseStatement_004 {
+public class P_004_SwitchCaseStatement {
     public static double areaSwitchCase(int ch, double []a) {
         // Write your code here
 

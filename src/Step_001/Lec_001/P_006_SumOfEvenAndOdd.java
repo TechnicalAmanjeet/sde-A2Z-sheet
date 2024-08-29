@@ -1,8 +1,8 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
     import java.util.Scanner;
 
-public class SumOfEvenAndOdd_006 {
+public class P_006_SumOfEvenAndOdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt(), sumOfEven = 0, sumOfOdd = 0;

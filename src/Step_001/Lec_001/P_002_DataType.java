@@ -1,4 +1,4 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
 import java.util.Objects;
 

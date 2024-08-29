@@ -1,6 +1,6 @@
-package Step001.Step001_01;
+package Step_001.Lec_001;
 
-public class DecisionMaking_003 {
+public class P_003_DecisionMaking {
     public static void main(String[] args) {
 
     }
