@@ -23,4 +23,19 @@ class Solution_P_003 {
 
         return reversedNum;
     }
+
+    protected static int recursiveReverse(int x) {
+        return recursiveReverseSolution(x, x, Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
+    }
+
+    protected static int recursiveReverseSolution(int num, int x, double intMax, double intMin, int reverse) {
+        if (x == 0) return reverse;
+
+        if (intMax < (double)reverse * 10 || intMin > (double)reverse * 10) {
+            return 0;
+        }
+
+
+        return recursiveReverseSolution(num, x/10, intMax, intMin, (reverse * 10) + (x % 10));
+    }
 }
